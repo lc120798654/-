@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[84]:
-
-
 from abc import ABC, abstractmethod
 
 class IStrategy(ABC):            
@@ -84,8 +81,6 @@ client.setname('Tom')
 client.setprice(200)
 client.printResult()
 
-
-# In[ ]:
 
 
 
